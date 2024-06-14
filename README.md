@@ -19,7 +19,7 @@ flask-restx==1.2.0
 openssl req -x509 -newkey rsa:4096 -nodes -out cert.pem -keyout key.pem -days 365
 </pre>
 
-### 라이브러리 설치 및 실행
+### 2. 라이브러리 설치 및 실행
 <pre>
 sudo -i # 443 포트 실행은 root 권한으로 실행해야 가능
 pip install -r requirements.txt
